@@ -1,0 +1,12 @@
+2026-06-17 16:45:12 [INFO]  Application started successfully.
+2026-06-17 16:45:13 [DEBUG] Loading configuration file: config.yaml
+2026-06-17 16:45:14 [INFO]  Database connection established (host=db.example.com, port=5432).
+2026-06-17 16:45:15 [WARN]  Cache service not responding, retrying...
+2026-06-17 16:45:17 [INFO]  Cache service connected after 2 retries.
+2026-06-17 16:45:20 [DEBUG] User login attempt: username=adnan
+2026-06-17 16:45:21 [INFO]  User authenticated successfully: username=adnan
+2026-06-17 16:45:25 [ERROR] Failed to fetch product prices from API (timeout).
+2026-06-17 16:45:26 [INFO]  Retrying API request (attempt 2/3)...
+2026-06-17 16:45:28 [INFO]  Product prices updated successfully.
+2026-06-17 16:45:30 [DEBUG] Scheduled task executed: price-tracker-job
+2026-06-17 16:45:35 [INFO]  Application shutting down gracefully.
